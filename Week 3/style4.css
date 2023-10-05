@@ -1,0 +1,31 @@
+body {
+    background-color: lightcyan;
+    background-image: url(https://asset-2.tstatic.net/lombok/foto/bank/images/Gojo-Satoru-di-Jujutsu-Kaisen-236.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom ;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: purple;
+    text-indent: 50px;
+}
+
+h2{
+    text-align: center;
+    color: red;
+    text-transform: initial;
+}
+
+h3{
+    text-align: center;
+    color: blue;
+    text-transform: initial;
+}
+
+p{
+    text-align: justify;
+    color: red;
+    letter-spacing: normal;
+}
