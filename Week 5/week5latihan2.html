@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BENGKULU NI BOS</title>
+</head>
+<body>
+    <h1>JavaScript can change images</h1>
+    <img id="myImage" onclick="changeImage()" src="https://pa1.aminoapps.com/7855/17c9a77395ef723eb2e0d35865fb60630315f066r1-1024-768_hq.gif" width="500" height="500">
+    <p>Click the image to change image</p>
+    <script>
+
+        var inibener = true;
+        function changeImage(){
+            var image = document.getElementById('myImage');
+            if(inibener){
+                image.src = "https://pa1.aminoapps.com/7855/17c9a77395ef723eb2e0d35865fb60630315f066r1-1024-768_hq.gif";
+            } else {
+                image.src = "https://i.pinimg.com/originals/06/b1/ab/06b1abc56a6f8c89f5d73c8f6745ccdb.gif";
+            }
+            
+            inibener = !inibener;
+        }
+    </script>
+</body>
+</html>

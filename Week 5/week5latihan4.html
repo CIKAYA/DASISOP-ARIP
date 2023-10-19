@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BENGKULU NIH BOS</title>
+</head>
+<body>
+    <h1>JavaScript can validate input</h1>
+    <p>Please input a number between 1 and 10:</p>
+    <input id="numb" type="number">
+    <button type="button" onclick="myFunction()">Submit</button>
+
+    <script>
+        function myFunction() {
+            var x, text;
+            x=document.getElementById("numb").value;
+
+            if(isNaN(x) || x < 1 || x >10) {
+                text = "input not valid";
+            } else {
+                text = "input OK";
+            }
+        }
+    </script>
+
+</body>
+</html>
