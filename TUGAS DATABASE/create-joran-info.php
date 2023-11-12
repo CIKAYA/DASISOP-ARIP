@@ -6,8 +6,8 @@ if (isset($_POST['buat_joran'])) {
 ?>
 <div class="container"> 
     <div class="row content">
-        <a  href="index.php"  class="button button-purple mt-12 pull-right">View Book List</a> 
-        <h3>Create Book Info</h3>
+        <a  href="index.php"  class="button button-purple mt-12 pull-right">Daftar Joran</a> 
+        <h3>Buat Info Joran</h3>
         <hr/>
         <form method="post" action="">
             <div class="form-group">
